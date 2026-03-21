@@ -4,7 +4,8 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Dinav Pandia — Data Engineer</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
 <style>
   :root {
     --amber: #F97316;
@@ -27,7 +28,7 @@
   html { scroll-behavior: smooth; }
 
   body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     background: var(--white);
     color: var(--black);
     overflow-x: hidden;
@@ -47,7 +48,7 @@
   }
   nav.scrolled { box-shadow: var(--shadow); }
   .nav-logo {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 800; font-size: 1.2rem;
     color: var(--black);
   }
@@ -79,9 +80,10 @@
     margin-bottom: 12px;
   }
   .section-title {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 800; line-height: 1.1;
+    letter-spacing: -0.02em;
     color: var(--black);
     margin-bottom: 16px;
   }
@@ -136,15 +138,16 @@
   }
   @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.3;} }
   .hero-name {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: clamp(3rem, 6vw, 5.5rem);
-    font-weight: 800; line-height: 1;
+    font-weight: 800; line-height: 1.05;
+    letter-spacing: -0.03em;
     color: var(--black);
     margin-bottom: 8px;
   }
   .hero-name .accent { color: var(--amber); }
   .hero-title {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: clamp(1.2rem, 2.5vw, 1.8rem);
     font-weight: 500; color: var(--gray-mid);
     margin-bottom: 24px;
@@ -180,7 +183,7 @@
   }
   .stat-item { }
   .stat-num {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2rem; font-weight: 800; color: var(--black);
     line-height: 1;
   }
@@ -212,7 +215,7 @@
     width: 100%; height: 100%; border-radius: 50%;
     background: linear-gradient(135deg, #FED7AA 0%, #FDBA74 40%, #FB923C 100%);
     display: flex; align-items: center; justify-content: center;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 5rem; font-weight: 800; color: var(--white);
     box-shadow: 0 20px 60px rgba(249,115,22,0.25);
     position: relative; z-index: 1;
@@ -254,7 +257,7 @@
   }
   .highlight-card:hover { border-color: var(--amber); transform: translateY(-2px); }
   .highlight-num {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.8rem; font-weight: 800;
     color: var(--amber); line-height: 1;
   }
@@ -277,7 +280,7 @@
     display: flex; align-items: center; justify-content: center;
     font-size: 1.4rem; flex-shrink: 0;
   }
-  .cert-name { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.95rem; }
+  .cert-name { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 0.95rem; }
   .cert-issuer { font-size: 0.82rem; color: var(--gray-mid); margin-top: 2px; }
 
   /* ── SKILLS ── */
@@ -309,7 +312,7 @@
     font-size: 1rem;
   }
   .skill-cat-name {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700; font-size: 0.9rem;
     text-transform: uppercase; letter-spacing: 0.06em;
   }
@@ -364,13 +367,13 @@
     margin-bottom: 8px; flex-wrap: wrap; gap: 12px;
   }
   .exp-company {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 0.78rem; font-weight: 600;
     color: var(--amber); text-transform: uppercase;
     letter-spacing: 0.08em; margin-bottom: 4px;
   }
   .exp-role {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.25rem; font-weight: 700;
   }
   .exp-period {
@@ -402,7 +405,7 @@
   }
   .metric {
     font-weight: 700; color: var(--amber-dark);
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
   }
 
   /* ── PROJECTS ── */
@@ -433,7 +436,7 @@
     font-size: 3rem; color: rgba(255,255,255,0.15); font-weight: 700;
   }
   .project-name {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.3rem; font-weight: 800; color: var(--white);
   }
   .project-period {
@@ -463,7 +466,7 @@
   }
   .test-card:hover { border-color: var(--amber); transform: translateY(-4px); box-shadow: var(--shadow); }
   .test-quote {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 4rem; font-weight: 800; color: var(--amber);
     line-height: 0.5; margin-bottom: 16px; display: block;
     opacity: 0.4;
@@ -474,10 +477,10 @@
     width: 44px; height: 44px; border-radius: 50%;
     background: linear-gradient(135deg, var(--amber-light), var(--amber));
     display: flex; align-items: center; justify-content: center;
-    font-family: 'Syne', sans-serif; font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700;
     color: var(--white); font-size: 0.85rem; flex-shrink: 0;
   }
-  .test-name { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.9rem; }
+  .test-name { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 0.9rem; }
   .test-role { font-size: 0.8rem; color: var(--gray-mid); }
   .test-placeholder-notice {
     text-align: center;
@@ -516,7 +519,7 @@
     font-size: 1.5rem; flex-shrink: 0;
   }
   .edu-school {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.05rem; font-weight: 700;
   }
   .edu-degree { font-size: 0.88rem; color: var(--gray-mid); margin: 4px 0; }
@@ -530,7 +533,7 @@
     background: var(--amber-glow);
     border: 1px solid rgba(249,115,22,0.2);
     padding: 4px 12px; border-radius: 100px;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700; font-size: 0.82rem; color: var(--amber-dark);
   }
 
@@ -570,7 +573,7 @@
     text-align: center;
   }
   .contact-right h3 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.5rem; font-weight: 800; margin-bottom: 12px;
   }
   .contact-right p { color: #9CA3AF; font-size: 0.95rem; margin-bottom: 28px; }
@@ -595,10 +598,14 @@
 
   /* ── SCROLL ANIMATIONS ── */
   .fade-in {
-    opacity: 0; transform: translateY(30px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
+    opacity: 0; transform: translateY(24px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
   .fade-in.visible { opacity: 1; transform: translateY(0); }
+  /* Fallback: if JS fails, still show content */
+  @media (prefers-reduced-motion: reduce) {
+    .fade-in { opacity: 1; transform: none; }
+  }
   .fade-in-delay-1 { transition-delay: 0.1s; }
   .fade-in-delay-2 { transition-delay: 0.2s; }
   .fade-in-delay-3 { transition-delay: 0.3s; }
@@ -650,7 +657,7 @@
     <div class="hero-left">
       <div class="hero-tag">Available for opportunities</div>
       <h1 class="hero-name">Dinav<br/><span class="accent">Pandia.</span></h1>
-      <p class="hero-title">Data Engineer @ Shell</p>
+      <p class="hero-title">Senior Data Engineer @ Shell</p>
       <p class="hero-desc">
         I build resilient, scalable data pipelines and platforms that help organizations turn raw data into actionable intelligence. Specializing in cloud-native architectures, cost optimization, and real-time data streaming.
       </p>
@@ -679,7 +686,7 @@
           <div class="hero-photo">DP</div>
         </div>
         <div class="hero-socials">
-          <a href="mailto:dinav.pandia.py@gmail.com" class="social-icon" title="Email">✉</a>
+          <a href="/cdn-cgi/l/email-protection#02666b6c63742c72636c666b632c727b42656f636b6e2c616d6f" class="social-icon" title="Email">✉</a>
           <a href="https://linkedin.com/in/dinavpandia" class="social-icon" target="_blank" title="LinkedIn">in</a>
           <a href="https://github.com/DinavPandia" class="social-icon" target="_blank" title="GitHub">⌥</a>
         </div>
@@ -744,95 +751,162 @@
 
 <!-- SKILLS -->
 <section id="skills">
-  <div class="skills-header fade-in">
+  <style>
+    .skills-all-wrap { max-width: 1160px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px; }
+
+    .skill-group {}
+    .skill-group-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem; font-weight: 500;
+      text-transform: uppercase; letter-spacing: 0.14em;
+      color: var(--amber);
+      margin-bottom: 16px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .skill-group-label::after {
+      content: '';
+      flex: 1; height: 1px;
+      background: var(--border);
+    }
+    .skill-group-tiles {
+      display: flex; flex-wrap: wrap; gap: 12px;
+    }
+    .skill-tile {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 18px;
+      display: flex; align-items: center; gap: 10px;
+      transition: border-color 0.2s, transform 0.18s, box-shadow 0.2s;
+      cursor: default;
+    }
+    .skill-tile:hover {
+      border-color: var(--amber);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(249,115,22,0.1);
+    }
+    .skill-tile i {
+      font-size: 1.6rem; line-height: 1;
+      transition: transform 0.18s;
+    }
+    .skill-tile:hover i { transform: scale(1.15); }
+    .skill-tile img {
+      width: 26px; height: 26px; object-fit: contain;
+      transition: transform 0.18s;
+    }
+    .skill-tile:hover img { transform: scale(1.15); }
+    .skill-tile-name {
+      font-size: 0.85rem; font-weight: 600;
+      color: #1F2937; white-space: nowrap;
+    }
+
+    /* concept pills row */
+    .concept-pills { display: flex; flex-wrap: wrap; gap: 10px; }
+    .concept-pill {
+      background: var(--gray-light);
+      border: 1.5px solid var(--border);
+      padding: 8px 16px; border-radius: 100px;
+      font-size: 0.82rem; font-weight: 600; color: #374151;
+      transition: all 0.2s;
+    }
+    .concept-pill:hover { border-color: var(--amber); color: var(--amber); background: var(--amber-glow); }
+
+    @media (max-width: 600px) {
+      .skill-tile { padding: 10px 14px; }
+      .skill-tile i { font-size: 1.3rem; }
+      .skill-tile-name { font-size: 0.78rem; }
+    }
+  </style>
+
+  <div class="skills-header fade-in" style="max-width:1160px;margin:0 auto 48px;">
     <div class="section-label">// Technical stack</div>
     <h2 class="section-title">Tools of the Trade</h2>
     <p class="section-sub">A broad toolkit spanning cloud platforms, data processing frameworks, and developer tooling.</p>
   </div>
-  <div class="skills-grid">
-    <div class="skill-category fade-in fade-in-delay-1">
-      <div class="skill-cat-header">
-        <div class="skill-cat-icon">☁</div>
-        <span class="skill-cat-name">Cloud Platforms</span>
-      </div>
-      <div class="skill-pills">
-        <span class="pill">Azure</span>
-        <span class="pill">AWS</span>
-        <span class="pill">Azure Data Factory</span>
-        <span class="pill">Azure Data Explorer</span>
-        <span class="pill">Azure Functions</span>
-        <span class="pill">Log Analytics</span>
-      </div>
-    </div>
-    <div class="skill-category fade-in fade-in-delay-2">
-      <div class="skill-cat-header">
-        <div class="skill-cat-icon">⚡</div>
-        <span class="skill-cat-name">Data Processing</span>
-      </div>
-      <div class="skill-pills">
-        <span class="pill">Apache Spark</span>
-        <span class="pill">Databricks</span>
-        <span class="pill">Apache Airflow</span>
-        <span class="pill">Kafka</span>
-        <span class="pill">Hive</span>
-        <span class="pill">Delta Lake</span>
-        <span class="pill">Snowflake</span>
-        <span class="pill">Iceberg</span>
+
+  <div class="skills-all-wrap fade-in fade-in-delay-1">
+
+    <!-- Languages -->
+    <div class="skill-group">
+      <div class="skill-group-label">Languages</div>
+      <div class="skill-group-tiles">
+        <div class="skill-tile"><i class="devicon-python-plain colored"></i><span class="skill-tile-name">Python</span></div>
+        <div class="skill-tile"><i class="devicon-java-plain colored"></i><span class="skill-tile-name">Java</span></div>
+        <div class="skill-tile"><i class="devicon-scala-plain colored"></i><span class="skill-tile-name">Scala</span></div>
+        <div class="skill-tile"><i class="devicon-bash-plain"></i><span class="skill-tile-name">Bash</span></div>
+        <div class="skill-tile"><i class="devicon-azuresqldatabase-plain colored"></i><span class="skill-tile-name">SQL</span></div>
       </div>
     </div>
-    <div class="skill-category fade-in fade-in-delay-3">
-      <div class="skill-cat-header">
-        <div class="skill-cat-icon">🗄</div>
-        <span class="skill-cat-name">Databases</span>
-      </div>
-      <div class="skill-pills">
-        <span class="pill">SQL Server</span>
-        <span class="pill">Oracle</span>
-        <span class="pill">PostgreSQL</span>
-        <span class="pill">MySQL</span>
-      </div>
-    </div>
-    <div class="skill-category fade-in fade-in-delay-1">
-      <div class="skill-cat-header">
-        <div class="skill-cat-icon">{ }</div>
-        <span class="skill-cat-name">Languages</span>
-      </div>
-      <div class="skill-pills">
-        <span class="pill">Python</span>
-        <span class="pill">Java</span>
-        <span class="pill">Scala</span>
-        <span class="pill">SQL</span>
-        <span class="pill">Bash</span>
+
+    <!-- Cloud -->
+    <div class="skill-group">
+      <div class="skill-group-label">Cloud & Platforms</div>
+      <div class="skill-group-tiles">
+        <div class="skill-tile"><i class="devicon-azure-plain colored"></i><span class="skill-tile-name">Azure</span></div>
+        <div class="skill-tile"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span class="skill-tile-name">AWS</span></div>
+        <div class="skill-tile"><i class="devicon-databricks-plain colored"></i><span class="skill-tile-name">Databricks</span></div>
+        <div class="skill-tile"><img src="https://www.vectorlogo.zone/logos/snowflake/snowflake-icon.svg" alt="Snowflake"/><span class="skill-tile-name">Snowflake</span></div>
+        <div class="skill-tile"><img src="https://www.vectorlogo.zone/logos/getdbt/getdbt-icon.svg" alt="dbt"/><span class="skill-tile-name">dbt</span></div>
       </div>
     </div>
-    <div class="skill-category fade-in fade-in-delay-2">
-      <div class="skill-cat-header">
-        <div class="skill-cat-icon">🏗</div>
-        <span class="skill-cat-name">Frameworks & Tools</span>
-      </div>
-      <div class="skill-pills">
-        <span class="pill">dbt</span>
-        <span class="pill">Unity Catalog</span>
-        <span class="pill">Docker</span>
-        <span class="pill">Kubernetes</span>
-        <span class="pill">Git</span>
-        <span class="pill">GitHub Actions</span>
-      </div>
-    </div>
-    <div class="skill-category fade-in fade-in-delay-3">
-      <div class="skill-cat-header">
-        <div class="skill-cat-icon">📋</div>
-        <span class="skill-cat-name">Architecture & Methods</span>
-      </div>
-      <div class="skill-pills">
-        <span class="pill">Data Warehousing</span>
-        <span class="pill">Data Modeling</span>
-        <span class="pill">Big Data</span>
-        <span class="pill">ETL/ELT</span>
-        <span class="pill">CDC</span>
-        <span class="pill">Agile</span>
+
+    <!-- Data Processing -->
+    <div class="skill-group">
+      <div class="skill-group-label">Data Processing & Pipelines</div>
+      <div class="skill-group-tiles">
+        <div class="skill-tile"><i class="devicon-apachespark-plain colored"></i><span class="skill-tile-name">Apache Spark</span></div>
+        <div class="skill-tile"><i class="devicon-apacheairflow-plain colored"></i><span class="skill-tile-name">Airflow</span></div>
+        <div class="skill-tile"><i class="devicon-apachekafka-plain"></i><span class="skill-tile-name">Kafka</span></div>
+        <div class="skill-tile"><i class="devicon-apachehive-plain colored"></i><span class="skill-tile-name">Hive</span></div>
+        <div class="skill-tile"><i class="devicon-databricks-plain colored"></i><span class="skill-tile-name">Delta Lake</span></div>
+        <div class="skill-tile"><i class="devicon-azure-plain colored"></i><span class="skill-tile-name">Azure Data Factory</span></div>
       </div>
     </div>
+
+    <!-- Databases -->
+    <div class="skill-group">
+      <div class="skill-group-label">Databases</div>
+      <div class="skill-group-tiles">
+        <div class="skill-tile"><i class="devicon-postgresql-plain colored"></i><span class="skill-tile-name">PostgreSQL</span></div>
+        <div class="skill-tile"><i class="devicon-mysql-plain colored"></i><span class="skill-tile-name">MySQL</span></div>
+        <div class="skill-tile"><i class="devicon-microsoftsqlserver-plain colored"></i><span class="skill-tile-name">SQL Server</span></div>
+        <div class="skill-tile"><i class="devicon-oracle-plain colored"></i><span class="skill-tile-name">Oracle</span></div>
+      </div>
+    </div>
+
+    <!-- Dev Tools -->
+    <div class="skill-group">
+      <div class="skill-group-label">Dev Tools</div>
+      <div class="skill-group-tiles">
+        <div class="skill-tile"><i class="devicon-git-plain colored"></i><span class="skill-tile-name">Git</span></div>
+        <div class="skill-tile"><i class="devicon-github-plain"></i><span class="skill-tile-name">GitHub Actions</span></div>
+        <div class="skill-tile"><i class="devicon-docker-plain colored"></i><span class="skill-tile-name">Docker</span></div>
+        <div class="skill-tile"><i class="devicon-kubernetes-plain colored"></i><span class="skill-tile-name">Kubernetes</span></div>
+        <div class="skill-tile"><i class="devicon-jira-plain colored"></i><span class="skill-tile-name">Jira</span></div>
+        <div class="skill-tile"><i class="devicon-confluence-plain colored"></i><span class="skill-tile-name">Confluence</span></div>
+        <div class="skill-tile"><i class="devicon-vscode-plain colored"></i><span class="skill-tile-name">VS Code</span></div>
+      </div>
+    </div>
+
+    <!-- Architecture Concepts -->
+    <div class="skill-group">
+      <div class="skill-group-label">Architecture & Methods</div>
+      <div class="concept-pills">
+        <span class="concept-pill">Data Warehousing</span>
+        <span class="concept-pill">Data Modeling</span>
+        <span class="concept-pill">Big Data Architecture</span>
+        <span class="concept-pill">ETL / ELT</span>
+        <span class="concept-pill">Change Data Capture</span>
+        <span class="concept-pill">Data Streaming</span>
+        <span class="concept-pill">Data Integration</span>
+        <span class="concept-pill">Serverless Architecture</span>
+        <span class="concept-pill">Algorithm Design</span>
+        <span class="concept-pill">Agile / Scrum</span>
+        <span class="concept-pill">Unity Catalog</span>
+        <span class="concept-pill">Data Lakehouse</span>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -1033,11 +1107,11 @@
       <h2 class="section-title">Get In Touch</h2>
       <p>Whether you're looking for a data engineer, want to collaborate on a project, or just want to talk shop about pipelines and lakehouses — my inbox is always open.</p>
       <div class="contact-links">
-        <a href="mailto:dinav.pandia.py@gmail.com" class="contact-link">
+        <a href="/cdn-cgi/l/email-protection#a9cdc0c7c8df87d9c8c7cdc0c887d9d0e9cec4c8c0c587cac6c4" class="contact-link">
           <div class="contact-link-icon">✉</div>
           <div>
             <div class="contact-link-label">Email</div>
-            <div class="contact-link-value">dinav.pandia.py@gmail.com</div>
+            <div class="contact-link-value"><span class="__cf_email__" data-cfemail="fe9a97909f88d08e9f909a979fd08e87be99939f9792d09d9193">[email&#160;protected]</span></div>
           </div>
         </a>
         <a href="https://linkedin.com/in/dinavpandia" class="contact-link" target="_blank">
@@ -1066,14 +1140,14 @@
     <div class="contact-right fade-in fade-in-delay-2">
       <h3>Open to New Opportunities</h3>
       <p>Looking for senior data engineering roles, consulting work, or interesting side projects involving large-scale data systems.</p>
-      <a href="mailto:dinav.pandia.py@gmail.com" class="contact-big-btn">Send a Message →</a>
+      <a href="/cdn-cgi/l/email-protection#385c5156594e164859565c5159164841785f55595154165b5755" class="contact-big-btn">Send a Message →</a>
     </div>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <p>Built with ♥ · <span>Dinav Pandia</span> © 2025 · Data Engineer, Bengaluru</p>
+  <p>Built by· <span>Dinav Pandia</span> © 2026 · Data Engineer, Bengaluru</p>
 </footer>
 
 <script>
@@ -1092,7 +1166,7 @@
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.12 });
+  }, { threshold: 0.05, rootMargin: '0px 0px -40px 0px' });
   fadeEls.forEach(el => observer.observe(el));
 </script>
 </body>
